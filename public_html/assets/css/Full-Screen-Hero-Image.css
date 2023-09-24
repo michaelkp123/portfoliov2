@@ -1,0 +1,30 @@
+#splash {
+  background-image: url("../../assets/img/Michael%20Top.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  text-align: center;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#buttonsInlineFlex {
+  box-sizing: border-box;
+}
+
+@media (min-width: 577px) {
+  .Kvalifikationer {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 576px) {
+  .Kvalifikationer {
+    font-size: 30px;
+  }
+}
+
